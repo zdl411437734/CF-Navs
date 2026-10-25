@@ -29,7 +29,7 @@ SESSION_TTL = "2592000"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "cf-navs-db"
+database_name = "cf-navs-tt-db"
 # Cloudflare Git deployments automatically provision the D1 database when the
 # database_id is omitted. Local CLI deployments use wrangler.local.toml.
 
